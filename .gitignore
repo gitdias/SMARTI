@@ -1,55 +1,78 @@
-# Prerequisites
-*.d
+# SMARTI Project .gitignore
+#-----------------------------------------------------------------------------------------
+# Repository: https://github.com/gitdias/SMARTI
+# Purpose: Exclude temporary, sensitive and local-only files from version control
+#-----------------------------------------------------------------------------------------
 
-# Object files
+# Logs
+logs/*.log
+logs/**/*.log
+*.log
+
+# Backups
+bkps/
+*.zst
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Version control (local only)
+conf/version.conf
+conf/installed_links.conf
+conf/history.conf
+conf/sub.conf
+
+# Sensitive data
+*.key
+*.pem
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets/
+.env.local
+.env.*.local
+
+# IDE and Editor
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# OS files
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Test artifacts
+test_results/
+coverage/
+*.test
+*.spec
+
+# Dependencies (if any package manager is used later)
+node_modules/
+vendor/
+
+# Build artifacts (if compilation is added)
+build/
+dist/
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Cache
+.cache/
+*.cache
