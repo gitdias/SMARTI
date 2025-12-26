@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com),
 and this project adheres to [Semantic Versioning](https://semver.org).
 
+## [01.00.02] - 2025-12-26
+
+### Added
+
+- Technical standards documentation (`docs/STANDARDS.md`)
+  - Shell script coding conventions
+  - File organization and naming standards
+  - Semantic versioning guidelines (vMAJOR.MINOR.PATCH_uYYYY-MM-DD)
+  - Commit message conventions (Conventional Commits)
+  - Error handling patterns and exit codes
+  - Internationalization implementation (us.lang default, pt_BR.lang fallback)
+  - Security guidelines (privilege management, input validation, secure temp files)
+  - Logging system specifications (INFO default level)
+  - Testing guidelines and best practices
+
 ## [01.00.01] - 2025-12-26
 
 ### Changed
@@ -17,7 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 
 - Corrected separation of concerns: configuration files now contain only data, not logic
 
-## [01.00.00] - 2025-11-24
+## [01.00.00] - 2025-12-26
 
 ### Added
 

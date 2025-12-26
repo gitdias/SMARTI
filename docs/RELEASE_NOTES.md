@@ -1,17 +1,23 @@
-# Release Notes - SMARTI v01.00.01
+# Release Notes - SMARTI v01.00.02
 
 **Release Date:** 2025-12-26
 
-## Changed
+## Added
 
-- Optimized `conf/colors.conf` by removing terminal color detection logic (moved to future ui.lib.sh)
-- Optimized `conf/symbols.conf` by removing compatibility fallback function (moved to future ui.lib.sh)
-- Simplified `conf/dep.conf` by removing version constraint from bash dependency
-- Reduced initial distribution support in `conf/distros.conf` (commented SUSE and Independent families for focused testing)
+- Technical standards documentation (`docs/STANDARDS.md`)
+  - Shell script coding conventions
+  - File organization and naming standards
+  - Semantic versioning guidelines
+  - Commit message conventions (Conventional Commits)
+  - Error handling patterns and best practices
+  - Internationalization implementation standards
+  - Security guidelines and input validation
+  - Logging system specifications
+  - Testing guidelines
 
-## Fixed
+## Documentation
 
-- Corrected separation of concerns: configuration files now contain only data, not logic
+Complete technical reference now available for developers and contributors covering all development standards and conventions.
 
 ---
 
