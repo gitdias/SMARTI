@@ -1,0 +1,320 @@
+#
+#-----------------------------------------------------------------------------------------
+# SMARTI - Arquivo de Idioma Português Brasileiro
+#-----------------------------------------------------------------------------------------
+# Idioma padrão para usuários brasileiros
+# Formato: CHAVE="valor"
+# Uso: Carregado automaticamente por detect_language.lib.sh
+#-----------------------------------------------------------------------------------------
+
+#
+# Mensagens Genéricas
+#
+MSG_WELCOME="Bem-vindo ao SMARTI"
+MSG_SUCCESS="Operação concluída com sucesso"
+MSG_FAILURE="Operação falhou"
+MSG_ERROR="Ocorreu um erro"
+MSG_WARNING="Aviso"
+MSG_INFO="Informação"
+MSG_ATTENTION="Atenção"
+MSG_CONTINUE="Pressione ENTER para continuar..."
+MSG_CANCEL="Operação cancelada"
+MSG_ABORT="Abortando"
+MSG_LOADING="Carregando..."
+MSG_PROCESSING="Processando..."
+MSG_DONE="Concluído"
+MSG_PLEASE_WAIT="Por favor, aguarde..."
+MSG_WORKING="Trabalhando nisso..."
+
+#
+# Mensagens de Detecção de Idioma
+#
+MSG_LANG_LOADED="Idioma carregado"
+MSG_LANG_FALLBACK="Retornando ao idioma padrão"
+MSG_LANG_INVALID="Arquivo de idioma inválido"
+MSG_LANG_NOT_FOUND="Arquivo de idioma não encontrado"
+MSG_LANG_AVAILABLE="Idiomas disponíveis"
+MSG_LANG_CURRENT="Idioma atual"
+MSG_LANG_USAGE_HEADER="Suporte i18n para mensagens de usuário em scripts."
+MSG_LANG_USAGE_EXAMPLES="EXEMPLOS DE USO"
+MSG_LANG_USAGE_LIST="a) Para listar os idiomas disponíveis:"
+MSG_LANG_USAGE_FORCE="b) Para forçar o uso de um idioma específico:"
+MSG_LANG_AVAILABLE_HEADER="IDIOMAS DISPONÍVEIS:"
+
+#
+# Mensagens do Instalador
+#
+MSG_INSTALL_START="Iniciando instalação do SMARTI"
+MSG_INSTALL_COMPLETE="SMARTI instalado com sucesso"
+MSG_INSTALL_FAILED="Falha na instalação"
+MSG_INSTALL_DETECTING="Detectando seu sistema..."
+MSG_INSTALL_DISTRO_DETECTED="Distribuição detectada"
+MSG_INSTALL_PKG_MANAGER="Gerenciador de pacotes"
+MSG_INSTALL_EXISTING="Instalação anterior detectada"
+MSG_INSTALL_VERSION_INSTALLED="Versão instalada"
+MSG_INSTALL_VERSION_AVAILABLE="Versão disponível"
+MSG_INSTALL_WHAT_TODO="O que você gostaria de fazer?"
+MSG_INSTALL_UPDATE="Atualizar para versão mais recente"
+MSG_INSTALL_UNINSTALL="Desinstalar versão antiga e prosseguir"
+MSG_INSTALL_ABORT_INSTALL="Abortar instalação"
+MSG_INSTALL_CHOICE="Escolha"
+MSG_INSTALL_CHECKING_DEPS="Verificando dependências necessárias..."
+MSG_INSTALL_ALREADY_INSTALLED="já instalado"
+MSG_INSTALL_NOT_FOUND="não encontrado"
+MSG_INSTALL_NEED_INSTALL="Para continuar, preciso instalar"
+MSG_INSTALL_ESTIMATED_SIZE="Tamanho estimado"
+MSG_INSTALL_CAN_INSTALL="Posso instalar pra você?"
+MSG_INSTALL_INSTALLING_DEPS="Instalando dependências..."
+MSG_INSTALL_PASSWORD_PROMPT="[sudo] senha para"
+MSG_INSTALL_CLONING="Clonando repositório do SMARTI..."
+MSG_INSTALL_CLONING_SUCCESS="Repositório clonado com sucesso"
+MSG_INSTALL_CONFIGURING="Configurando SMARTI..."
+MSG_INSTALL_STRUCTURE_CREATED="Estrutura de diretórios criada"
+MSG_INSTALL_PERMISSIONS_SET="Permissões configuradas"
+MSG_INSTALL_LINKS_CREATED="Links simbólicos criados"
+MSG_INSTALL_SUCCESS_BANNER="SMARTI instalado com sucesso!"
+MSG_INSTALL_VERSION="Versão"
+MSG_INSTALL_LOCATION="Localização"
+MSG_INSTALL_GET_STARTED="Para começar, execute:"
+MSG_INSTALL_VIEW_COMMANDS="Ver todos os comandos"
+MSG_INSTALL_VIEW_OPTIONS="Ver todas as opções"
+MSG_INSTALL_VIEW_INFO="Informações do sistema"
+MSG_INSTALL_ENJOY="Aproveite! 🚀"
+
+#
+# Mensagens do Desinstalador
+#
+MSG_UNINSTALL_START="Iniciando desinstalação do SMARTI"
+MSG_UNINSTALL_VERSION="Versão instalada"
+MSG_UNINSTALL_LOCATION="Localização"
+MSG_UNINSTALL_WARNING="ATENÇÃO: Você está prestes a desinstalar o SMARTI"
+MSG_UNINSTALL_ACTIONS="Esta ação irá:"
+MSG_UNINSTALL_REMOVE_SCRIPTS="Remover todos os scripts de"
+MSG_UNINSTALL_REMOVE_LINKS="Remover links simbólicos de"
+MSG_UNINSTALL_REMOVE_CONFIGS="Apagar configurações e logs"
+MSG_UNINSTALL_CONFIRM_1="Tem certeza que deseja continuar?"
+MSG_UNINSTALL_CONFIRM_2="Esta ação NÃO pode ser desfeita. Tem certeza?"
+MSG_UNINSTALL_CONFIRM_3="Para confirmar, digite 'DESINSTALAR' (maiúsculas):"
+MSG_UNINSTALL_BACKUP_OFFER="Antes de prosseguir, deseja criar um backup?"
+MSG_UNINSTALL_CREATING_BACKUP="Criando backup de segurança..."
+MSG_UNINSTALL_BACKUP_CREATED="Backup criado"
+MSG_UNINSTALL_REMOVING_LINKS="Removendo links simbólicos..."
+MSG_UNINSTALL_LINKS_REMOVED="links removidos"
+MSG_UNINSTALL_REMOVING_FILES="Removendo arquivos do sistema..."
+MSG_UNINSTALL_CLEANING="Limpando configurações..."
+MSG_UNINSTALL_SUCCESS="SMARTI foi desinstalado com sucesso!"
+MSG_UNINSTALL_SAD="Lamentamos ver você partir! 😢"
+MSG_UNINSTALL_FEEDBACK="Se tiver um momento, adoraríamos saber o motivo:"
+MSG_UNINSTALL_BACKUP_KEPT="Backup mantido em seu diretório home"
+MSG_UNINSTALL_REINSTALL="Para reinstalar no futuro:"
+MSG_UNINSTALL_GOODBYE="Até breve! 👋"
+
+#
+# Mensagens de Atualização
+#
+MSG_UPDATE_CHECKING="Verificando atualizações..."
+MSG_UPDATE_AVAILABLE="Que legal! Temos uma nova versão do SMARTI disponível com novos recursos e/ou correções."
+MSG_UPDATE_YOUR_VERSION="Sua versão"
+MSG_UPDATE_NEW_VERSION="Nova versão"
+MSG_UPDATE_CAN_UPDATE="Posso atualizar pra você?"
+MSG_UPDATE_CURRENT="SMARTI está atualizado"
+MSG_UPDATE_NO_UPDATES="Nenhuma atualização disponível"
+MSG_UPDATE_STARTING="Iniciando atualização..."
+MSG_UPDATE_COMPLETE="Atualização concluída com sucesso!"
+MSG_UPDATE_FAILED="Falha na atualização"
+MSG_UPDATE_CREATING_BACKUP="Criando backup antes da atualização..."
+MSG_UPDATE_DOWNLOADING="Baixando nova versão..."
+MSG_UPDATE_INSTALLING="Instalando atualização..."
+MSG_UPDATE_FINALIZING="Finalizando atualização..."
+MSG_UPDATE_BANNER_TITLE="Notas de Lançamento"
+MSG_UPDATE_BANNER_PRESS_ENTER="Pressione ENTER para continuar..."
+
+#
+# Mensagens de Backup
+#
+MSG_BACKUP_CREATING="Criando backup..."
+MSG_BACKUP_CREATED="Backup criado"
+MSG_BACKUP_SIZE="Tamanho"
+MSG_BACKUP_LOCATION="Localização"
+MSG_BACKUP_FAILED="Falha no backup"
+MSG_BACKUP_VALIDATING="Validando integridade do backup..."
+MSG_BACKUP_VALID="Backup válido"
+MSG_BACKUP_INVALID="Backup corrompido"
+MSG_BACKUP_REMOVING_OLD="Removendo backups antigos..."
+MSG_BACKUP_RETENTION="Mantendo últimas"
+MSG_BACKUP_VERSIONS="versões"
+
+#
+# Mensagens de Rollback
+#
+MSG_ROLLBACK_TITLE="Reverter para Versão Anterior"
+MSG_ROLLBACK_AVAILABLE="Versões disponíveis:"
+MSG_ROLLBACK_CHOOSE="Escolha a versão para restaurar (1-2) ou 'c' para cancelar:"
+MSG_ROLLBACK_WARNING="ATENÇÃO: Esta operação irá substituir a versão atual. Um backup será criado antes de continuar."
+MSG_ROLLBACK_CONFIRM="Deseja prosseguir?"
+MSG_ROLLBACK_CANCELLED="Rollback cancelado"
+MSG_ROLLBACK_CREATING_BACKUP="Criando backup da versão atual..."
+MSG_ROLLBACK_RESTORING="Restaurando versão..."
+MSG_ROLLBACK_SUCCESS="Rollback concluído com sucesso!"
+MSG_ROLLBACK_FAILED="Falha no rollback"
+MSG_ROLLBACK_CURRENT="Versão atual restaurada"
+
+#
+# Mensagens de Dependências
+#
+MSG_DEP_CHECKING="Verificando dependências..."
+MSG_DEP_FOUND="encontrado"
+MSG_DEP_MISSING="ausente"
+MSG_DEP_INSTALLED="instalado"
+MSG_DEP_INSTALLING="Instalando"
+MSG_DEP_INSTALL_SUCCESS="instalado com sucesso"
+MSG_DEP_INSTALL_FAILED="falha na instalação"
+MSG_DEP_ALL_OK="Todas as dependências estão satisfeitas"
+MSG_DEP_SOME_MISSING="Algumas dependências estão faltando"
+MSG_DEP_REQUIRED="Pacotes obrigatórios"
+MSG_DEP_OPTIONAL="Pacotes opcionais"
+
+#
+# Mensagens de Permissão
+#
+MSG_PERM_REQUIRED="Esta operação requer privilégios elevados"
+MSG_PERM_REQUESTING="Solicitando acesso sudo..."
+MSG_PERM_GRANTED="Acesso concedido"
+MSG_PERM_DENIED="Acesso negado"
+MSG_PERM_NEED_ROOT="Este script requer privilégios de root"
+MSG_PERM_USE_SUDO="Por favor, execute com sudo:"
+MSG_PERM_CHECKING="Verificando permissões..."
+
+#
+# Mensagens de Rede
+#
+MSG_NET_CHECKING="Verificando conexão com internet..."
+MSG_NET_CONNECTED="Conexão com internet disponível"
+MSG_NET_DISCONNECTED="Sem conexão com internet detectada"
+MSG_NET_PROBLEM="Problema de rede identificado"
+MSG_NET_DNS_FAIL="Servidor DNS não está respondendo"
+MSG_NET_SUGGESTION="Sugestão"
+MSG_NET_CHECK_DNS="Verifique as configurações de DNS em /etc/resolv.conf ou configure manualmente:"
+MSG_NET_AUTO_FIX="Deseja que eu tente corrigir automaticamente?"
+MSG_NET_TESTING="Testando conectividade..."
+MSG_NET_TIMEOUT="Tempo de conexão esgotado"
+MSG_NET_SLOW="Conexão lenta detectada"
+
+#
+# Mensagens de Gerenciamento de Links
+#
+MSG_LINK_CREATING="Criando links simbólicos..."
+MSG_LINK_CREATED="Link criado"
+MSG_LINK_ALREADY_EXISTS="Link já existe"
+MSG_LINK_SKIPPED="Pulado"
+MSG_LINK_OVERWRITE="Sobrescrever link existente?"
+MSG_LINK_REMOVING="Removendo links simbólicos..."
+MSG_LINK_REMOVED="Link removido"
+MSG_LINK_NOT_FOUND="Link não encontrado (já removido?)"
+MSG_LINK_FAILED="Falha ao criar link"
+MSG_LINK_INVALID="não é um link simbólico, pulando por segurança"
+
+#
+# Mensagens de Log
+#
+MSG_LOG_INIT="Inicializando sistema de logging..."
+MSG_LOG_WRITING="Escrevendo no log..."
+MSG_LOG_LEVEL_CHANGED="Nível de log alterado para"
+MSG_LOG_FILE_CREATED="Arquivo de log criado"
+MSG_LOG_FILE_NOT_WRITABLE="Não é possível escrever no arquivo de log"
+MSG_LOG_ROTATION="Rotacionando logs..."
+MSG_LOG_VERBOSE_ENABLED="Modo verboso ativado"
+MSG_LOG_VERBOSE_DISABLED="Modo verboso desativado"
+MSG_LOG_SILENCE_ENABLED="Modo silencioso ativado"
+MSG_LOG_SILENCE_DISABLED="Modo silencioso desativado"
+
+#
+# Mensagens de Informações do Sistema
+#
+MSG_INFO_SYSTEM="Informações do Sistema"
+MSG_INFO_DISTRO="Distribuição"
+MSG_INFO_VERSION="Versão"
+MSG_INFO_KERNEL="Kernel"
+MSG_INFO_ARCHITECTURE="Arquitetura"
+MSG_INFO_HOSTNAME="Nome do host"
+MSG_INFO_UPTIME="Tempo ativo"
+MSG_INFO_LOAD="Carga média"
+MSG_INFO_MEMORY="Memória"
+MSG_INFO_DISK="Espaço em disco"
+MSG_INFO_SMARTI="Informações do SMARTI"
+MSG_INFO_PATH="Caminho"
+MSG_INFO_TYPE="Tipo"
+MSG_INFO_DEPENDENCIES="Dependências"
+
+#
+# Mensagens de Diagnóstico
+#
+MSG_DOCTOR_CHECKING="Executando diagnóstico do sistema..."
+MSG_DOCTOR_CHECK_STRUCTURE="Verificando estrutura de diretórios..."
+MSG_DOCTOR_CHECK_PERMS="Verificando permissões..."
+MSG_DOCTOR_CHECK_LINKS="Verificando links simbólicos..."
+MSG_DOCTOR_CHECK_CONFIGS="Verificando arquivos de configuração..."
+MSG_DOCTOR_CHECK_DEPS="Verificando dependências..."
+MSG_DOCTOR_ALL_OK="Todas as verificações passaram! Sistema saudável ✓"
+MSG_DOCTOR_ISSUES_FOUND="Problemas encontrados"
+MSG_DOCTOR_FIX_AVAILABLE="Gostaria de corrigi-los automaticamente?"
+MSG_DOCTOR_FIXING="Corrigindo problemas..."
+MSG_DOCTOR_FIXED="Problemas corrigidos"
+MSG_DOCTOR_MANUAL_FIX="Alguns problemas requerem intervenção manual"
+
+#
+# Mensagens de Histórico
+#
+MSG_HISTORY_TITLE="Seus Scripts Favoritos"
+MSG_HISTORY_EMPTY="Nenhum histórico de uso ainda"
+MSG_HISTORY_USAGE="Uso"
+MSG_HISTORY_TIMES="vezes"
+MSG_HISTORY_PERCENT="do total"
+
+#
+# Mensagens de Prompt
+#
+MSG_PROMPT_YES_NO="s/N"
+MSG_PROMPT_YES_NO_DEFAULT_YES="S/n"
+MSG_PROMPT_CONTINUE="Continuar?"
+MSG_PROMPT_ENTER_VALUE="Digite o valor:"
+MSG_PROMPT_CHOOSE_OPTION="Escolha uma opção:"
+MSG_PROMPT_INVALID_CHOICE="Escolha inválida"
+MSG_PROMPT_TRY_AGAIN="Por favor, tente novamente"
+
+#
+# Mensagens de Erro
+#
+MSG_ERR_COMMAND_NOT_FOUND="Comando não encontrado"
+MSG_ERR_FILE_NOT_FOUND="Arquivo não encontrado"
+MSG_ERR_DIR_NOT_FOUND="Diretório não encontrado"
+MSG_ERR_PERMISSION_DENIED="Permissão negada"
+MSG_ERR_INVALID_OPTION="Opção inválida"
+MSG_ERR_INVALID_ARGUMENT="Argumento inválido"
+MSG_ERR_MISSING_ARGUMENT="Argumento obrigatório ausente"
+MSG_ERR_OPERATION_FAILED="Operação falhou"
+MSG_ERR_NETWORK_ERROR="Erro de rede"
+MSG_ERR_TIMEOUT="Tempo de operação esgotado"
+MSG_ERR_UNKNOWN="Erro desconhecido"
+MSG_ERR_CRITICAL="Erro crítico"
+MSG_ERR_ABORT="Abortando devido ao erro"
+
+#
+# Mensagens de Sucesso
+#
+MSG_SUCCESS_OPERATION="Operação concluída com sucesso"
+MSG_SUCCESS_CREATED="Criado com sucesso"
+MSG_SUCCESS_REMOVED="Removido com sucesso"
+MSG_SUCCESS_UPDATED="Atualizado com sucesso"
+MSG_SUCCESS_CONFIGURED="Configurado com sucesso"
+MSG_SUCCESS_INSTALLED="Instalado com sucesso"
+MSG_SUCCESS_UNINSTALLED="Desinstalado com sucesso"
+
+#
+# Copyright e Licença
+#
+MSG_COPYRIGHT="Copyright (c) 2025 Sandro Dias"
+MSG_LICENSE="Licença MIT"
+MSG_AUTHOR="Autor"
+MSG_CONTACT="Contato"
+MSG_REPOSITORY="Repositório"

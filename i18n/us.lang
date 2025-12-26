@@ -1,0 +1,320 @@
+#
+#-----------------------------------------------------------------------------------------
+# SMARTI - American English Language File
+#-----------------------------------------------------------------------------------------
+# Default language for SMARTI project
+# Format: KEY="value"
+# Usage: Loaded automatically by detect_language.lib.sh
+#-----------------------------------------------------------------------------------------
+
+#
+# Generic Messages
+#
+MSG_WELCOME="Welcome to SMARTI"
+MSG_SUCCESS="Operation completed successfully"
+MSG_FAILURE="Operation failed"
+MSG_ERROR="An error occurred"
+MSG_WARNING="Warning"
+MSG_INFO="Information"
+MSG_ATTENTION="Attention"
+MSG_CONTINUE="Press ENTER to continue..."
+MSG_CANCEL="Operation cancelled"
+MSG_ABORT="Aborting"
+MSG_LOADING="Loading..."
+MSG_PROCESSING="Processing..."
+MSG_DONE="Done"
+MSG_PLEASE_WAIT="Please wait..."
+MSG_WORKING="Working on it..."
+
+#
+# Language Detection Messages
+#
+MSG_LANG_LOADED="Language loaded"
+MSG_LANG_FALLBACK="Falling back to default language"
+MSG_LANG_INVALID="Invalid language file"
+MSG_LANG_NOT_FOUND="Language file not found"
+MSG_LANG_AVAILABLE="Available languages"
+MSG_LANG_CURRENT="Current language"
+MSG_LANG_USAGE_HEADER="i18n support for user messages in scripts."
+MSG_LANG_USAGE_EXAMPLES="USAGE EXAMPLES"
+MSG_LANG_USAGE_LIST="a) To list the available languages:"
+MSG_LANG_USAGE_FORCE="b) To force the use of a specific language:"
+MSG_LANG_AVAILABLE_HEADER="LANGUAGES AVAILABLE:"
+
+#
+# Installer Messages
+#
+MSG_INSTALL_START="Starting SMARTI installation"
+MSG_INSTALL_COMPLETE="SMARTI installed successfully"
+MSG_INSTALL_FAILED="Installation failed"
+MSG_INSTALL_DETECTING="Detecting your system..."
+MSG_INSTALL_DISTRO_DETECTED="Distribution detected"
+MSG_INSTALL_PKG_MANAGER="Package manager"
+MSG_INSTALL_EXISTING="Previous installation detected"
+MSG_INSTALL_VERSION_INSTALLED="Installed version"
+MSG_INSTALL_VERSION_AVAILABLE="Available version"
+MSG_INSTALL_WHAT_TODO="What would you like to do?"
+MSG_INSTALL_UPDATE="Update to latest version"
+MSG_INSTALL_UNINSTALL="Uninstall old version and proceed"
+MSG_INSTALL_ABORT_INSTALL="Abort installation"
+MSG_INSTALL_CHOICE="Choice"
+MSG_INSTALL_CHECKING_DEPS="Checking required dependencies..."
+MSG_INSTALL_ALREADY_INSTALLED="already installed"
+MSG_INSTALL_NOT_FOUND="not found"
+MSG_INSTALL_NEED_INSTALL="To continue, I need to install"
+MSG_INSTALL_ESTIMATED_SIZE="Estimated size"
+MSG_INSTALL_CAN_INSTALL="Can I install for you?"
+MSG_INSTALL_INSTALLING_DEPS="Installing dependencies..."
+MSG_INSTALL_PASSWORD_PROMPT="[sudo] password for"
+MSG_INSTALL_CLONING="Cloning SMARTI repository..."
+MSG_INSTALL_CLONING_SUCCESS="Repository cloned successfully"
+MSG_INSTALL_CONFIGURING="Configuring SMARTI..."
+MSG_INSTALL_STRUCTURE_CREATED="Directory structure created"
+MSG_INSTALL_PERMISSIONS_SET="Permissions configured"
+MSG_INSTALL_LINKS_CREATED="Symbolic links created"
+MSG_INSTALL_SUCCESS_BANNER="SMARTI installed successfully!"
+MSG_INSTALL_VERSION="Version"
+MSG_INSTALL_LOCATION="Location"
+MSG_INSTALL_GET_STARTED="To get started, run:"
+MSG_INSTALL_VIEW_COMMANDS="View all commands"
+MSG_INSTALL_VIEW_OPTIONS="View all options"
+MSG_INSTALL_VIEW_INFO="System information"
+MSG_INSTALL_ENJOY="Enjoy! 🚀"
+
+#
+# Uninstaller Messages
+#
+MSG_UNINSTALL_START="Starting SMARTI uninstallation"
+MSG_UNINSTALL_VERSION="Version installed"
+MSG_UNINSTALL_LOCATION="Location"
+MSG_UNINSTALL_WARNING="ATTENTION: You are about to uninstall SMARTI"
+MSG_UNINSTALL_ACTIONS="This action will:"
+MSG_UNINSTALL_REMOVE_SCRIPTS="Remove all scripts from"
+MSG_UNINSTALL_REMOVE_LINKS="Remove symbolic links from"
+MSG_UNINSTALL_REMOVE_CONFIGS="Delete configurations and logs"
+MSG_UNINSTALL_CONFIRM_1="Are you sure you want to continue?"
+MSG_UNINSTALL_CONFIRM_2="This action CANNOT be undone. Are you sure?"
+MSG_UNINSTALL_CONFIRM_3="To confirm, type 'UNINSTALL' (uppercase):"
+MSG_UNINSTALL_BACKUP_OFFER="Before proceeding, would you like to create a backup?"
+MSG_UNINSTALL_CREATING_BACKUP="Creating safety backup..."
+MSG_UNINSTALL_BACKUP_CREATED="Backup created"
+MSG_UNINSTALL_REMOVING_LINKS="Removing symbolic links..."
+MSG_UNINSTALL_LINKS_REMOVED="links removed"
+MSG_UNINSTALL_REMOVING_FILES="Removing system files..."
+MSG_UNINSTALL_CLEANING="Cleaning configurations..."
+MSG_UNINSTALL_SUCCESS="SMARTI has been uninstalled successfully!"
+MSG_UNINSTALL_SAD="We're sorry to see you go! 😢"
+MSG_UNINSTALL_FEEDBACK="If you have a moment, we'd love to know why:"
+MSG_UNINSTALL_BACKUP_KEPT="Backup kept in your home directory"
+MSG_UNINSTALL_REINSTALL="To reinstall in the future:"
+MSG_UNINSTALL_GOODBYE="See you soon! 👋"
+
+#
+# Update Messages
+#
+MSG_UPDATE_CHECKING="Checking for updates..."
+MSG_UPDATE_AVAILABLE="Great! A new version of SMARTI is available with new features and/or fixes."
+MSG_UPDATE_YOUR_VERSION="Your version"
+MSG_UPDATE_NEW_VERSION="New version"
+MSG_UPDATE_CAN_UPDATE="Can I update for you?"
+MSG_UPDATE_CURRENT="SMARTI is up to date"
+MSG_UPDATE_NO_UPDATES="No updates available"
+MSG_UPDATE_STARTING="Starting update..."
+MSG_UPDATE_COMPLETE="Update completed successfully!"
+MSG_UPDATE_FAILED="Update failed"
+MSG_UPDATE_CREATING_BACKUP="Creating backup before update..."
+MSG_UPDATE_DOWNLOADING="Downloading new version..."
+MSG_UPDATE_INSTALLING="Installing update..."
+MSG_UPDATE_FINALIZING="Finalizing update..."
+MSG_UPDATE_BANNER_TITLE="Release Notes"
+MSG_UPDATE_BANNER_PRESS_ENTER="Press ENTER to continue..."
+
+#
+# Backup Messages
+#
+MSG_BACKUP_CREATING="Creating backup..."
+MSG_BACKUP_CREATED="Backup created"
+MSG_BACKUP_SIZE="Size"
+MSG_BACKUP_LOCATION="Location"
+MSG_BACKUP_FAILED="Backup failed"
+MSG_BACKUP_VALIDATING="Validating backup integrity..."
+MSG_BACKUP_VALID="Backup is valid"
+MSG_BACKUP_INVALID="Backup is corrupted"
+MSG_BACKUP_REMOVING_OLD="Removing old backups..."
+MSG_BACKUP_RETENTION="Keeping last"
+MSG_BACKUP_VERSIONS="versions"
+
+#
+# Rollback Messages
+#
+MSG_ROLLBACK_TITLE="Rollback to Previous Version"
+MSG_ROLLBACK_AVAILABLE="Available versions:"
+MSG_ROLLBACK_CHOOSE="Choose version to restore (1-2) or 'c' to cancel:"
+MSG_ROLLBACK_WARNING="ATTENTION: This operation will replace the current version. A backup will be created before continuing."
+MSG_ROLLBACK_CONFIRM="Do you want to proceed?"
+MSG_ROLLBACK_CANCELLED="Rollback cancelled"
+MSG_ROLLBACK_CREATING_BACKUP="Creating backup of current version..."
+MSG_ROLLBACK_RESTORING="Restoring version..."
+MSG_ROLLBACK_SUCCESS="Rollback completed successfully!"
+MSG_ROLLBACK_FAILED="Rollback failed"
+MSG_ROLLBACK_CURRENT="Current version restored"
+
+#
+# Dependencies Messages
+#
+MSG_DEP_CHECKING="Checking dependencies..."
+MSG_DEP_FOUND="found"
+MSG_DEP_MISSING="missing"
+MSG_DEP_INSTALLED="installed"
+MSG_DEP_INSTALLING="Installing"
+MSG_DEP_INSTALL_SUCCESS="installed successfully"
+MSG_DEP_INSTALL_FAILED="installation failed"
+MSG_DEP_ALL_OK="All dependencies are satisfied"
+MSG_DEP_SOME_MISSING="Some dependencies are missing"
+MSG_DEP_REQUIRED="Required packages"
+MSG_DEP_OPTIONAL="Optional packages"
+
+#
+# Permission Messages
+#
+MSG_PERM_REQUIRED="This operation requires elevated privileges"
+MSG_PERM_REQUESTING="Requesting sudo access..."
+MSG_PERM_GRANTED="Access granted"
+MSG_PERM_DENIED="Access denied"
+MSG_PERM_NEED_ROOT="This script requires root privileges"
+MSG_PERM_USE_SUDO="Please run with sudo:"
+MSG_PERM_CHECKING="Checking permissions..."
+
+#
+# Network Messages
+#
+MSG_NET_CHECKING="Checking internet connection..."
+MSG_NET_CONNECTED="Internet connection available"
+MSG_NET_DISCONNECTED="No internet connection detected"
+MSG_NET_PROBLEM="Network problem identified"
+MSG_NET_DNS_FAIL="DNS server not responding"
+MSG_NET_SUGGESTION="Suggestion"
+MSG_NET_CHECK_DNS="Check DNS settings in /etc/resolv.conf or configure manually:"
+MSG_NET_AUTO_FIX="Would you like me to try to fix it automatically?"
+MSG_NET_TESTING="Testing connectivity..."
+MSG_NET_TIMEOUT="Connection timeout"
+MSG_NET_SLOW="Slow connection detected"
+
+#
+# Link Management Messages
+#
+MSG_LINK_CREATING="Creating symbolic links..."
+MSG_LINK_CREATED="Link created"
+MSG_LINK_ALREADY_EXISTS="Link already exists"
+MSG_LINK_SKIPPED="Skipped"
+MSG_LINK_OVERWRITE="Overwrite existing link?"
+MSG_LINK_REMOVING="Removing symbolic links..."
+MSG_LINK_REMOVED="Link removed"
+MSG_LINK_NOT_FOUND="Link not found (already removed?)"
+MSG_LINK_FAILED="Failed to create link"
+MSG_LINK_INVALID="is not a symbolic link, skipping for safety"
+
+#
+# Log Messages
+#
+MSG_LOG_INIT="Initializing logging system..."
+MSG_LOG_WRITING="Writing to log..."
+MSG_LOG_LEVEL_CHANGED="Log level changed to"
+MSG_LOG_FILE_CREATED="Log file created"
+MSG_LOG_FILE_NOT_WRITABLE="Cannot write to log file"
+MSG_LOG_ROTATION="Rotating logs..."
+MSG_LOG_VERBOSE_ENABLED="Verbose mode enabled"
+MSG_LOG_VERBOSE_DISABLED="Verbose mode disabled"
+MSG_LOG_SILENCE_ENABLED="Silence mode enabled"
+MSG_LOG_SILENCE_DISABLED="Silence mode disabled"
+
+#
+# System Information Messages
+#
+MSG_INFO_SYSTEM="System Information"
+MSG_INFO_DISTRO="Distribution"
+MSG_INFO_VERSION="Version"
+MSG_INFO_KERNEL="Kernel"
+MSG_INFO_ARCHITECTURE="Architecture"
+MSG_INFO_HOSTNAME="Hostname"
+MSG_INFO_UPTIME="Uptime"
+MSG_INFO_LOAD="Load Average"
+MSG_INFO_MEMORY="Memory"
+MSG_INFO_DISK="Disk Space"
+MSG_INFO_SMARTI="SMARTI Information"
+MSG_INFO_PATH="Path"
+MSG_INFO_TYPE="Type"
+MSG_INFO_DEPENDENCIES="Dependencies"
+
+#
+# Doctor/Diagnostic Messages
+#
+MSG_DOCTOR_CHECKING="Running system diagnostics..."
+MSG_DOCTOR_CHECK_STRUCTURE="Checking directory structure..."
+MSG_DOCTOR_CHECK_PERMS="Checking permissions..."
+MSG_DOCTOR_CHECK_LINKS="Checking symbolic links..."
+MSG_DOCTOR_CHECK_CONFIGS="Checking configuration files..."
+MSG_DOCTOR_CHECK_DEPS="Checking dependencies..."
+MSG_DOCTOR_ALL_OK="All checks passed! System is healthy ✓"
+MSG_DOCTOR_ISSUES_FOUND="Issues found"
+MSG_DOCTOR_FIX_AVAILABLE="Would you like to fix them automatically?"
+MSG_DOCTOR_FIXING="Fixing issues..."
+MSG_DOCTOR_FIXED="Issues fixed"
+MSG_DOCTOR_MANUAL_FIX="Some issues require manual intervention"
+
+#
+# History Messages
+#
+MSG_HISTORY_TITLE="Your Favorite Scripts"
+MSG_HISTORY_EMPTY="No usage history yet"
+MSG_HISTORY_USAGE="Usage"
+MSG_HISTORY_TIMES="times"
+MSG_HISTORY_PERCENT="of total"
+
+#
+# Prompt Messages
+#
+MSG_PROMPT_YES_NO="y/N"
+MSG_PROMPT_YES_NO_DEFAULT_YES="Y/n"
+MSG_PROMPT_CONTINUE="Continue?"
+MSG_PROMPT_ENTER_VALUE="Enter value:"
+MSG_PROMPT_CHOOSE_OPTION="Choose an option:"
+MSG_PROMPT_INVALID_CHOICE="Invalid choice"
+MSG_PROMPT_TRY_AGAIN="Please try again"
+
+#
+# Error Messages
+#
+MSG_ERR_COMMAND_NOT_FOUND="Command not found"
+MSG_ERR_FILE_NOT_FOUND="File not found"
+MSG_ERR_DIR_NOT_FOUND="Directory not found"
+MSG_ERR_PERMISSION_DENIED="Permission denied"
+MSG_ERR_INVALID_OPTION="Invalid option"
+MSG_ERR_INVALID_ARGUMENT="Invalid argument"
+MSG_ERR_MISSING_ARGUMENT="Missing required argument"
+MSG_ERR_OPERATION_FAILED="Operation failed"
+MSG_ERR_NETWORK_ERROR="Network error"
+MSG_ERR_TIMEOUT="Operation timed out"
+MSG_ERR_UNKNOWN="Unknown error"
+MSG_ERR_CRITICAL="Critical error"
+MSG_ERR_ABORT="Aborting due to error"
+
+#
+# Success Messages
+#
+MSG_SUCCESS_OPERATION="Operation completed successfully"
+MSG_SUCCESS_CREATED="Created successfully"
+MSG_SUCCESS_REMOVED="Removed successfully"
+MSG_SUCCESS_UPDATED="Updated successfully"
+MSG_SUCCESS_CONFIGURED="Configured successfully"
+MSG_SUCCESS_INSTALLED="Installed successfully"
+MSG_SUCCESS_UNINSTALLED="Uninstalled successfully"
+
+#
+# Copyright and License
+#
+MSG_COPYRIGHT="Copyright (c) 2025 Sandro Dias"
+MSG_LICENSE="MIT License"
+MSG_AUTHOR="Author"
+MSG_CONTACT="Contact"
+MSG_REPOSITORY="Repository"

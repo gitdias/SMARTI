@@ -5,7 +5,7 @@
 #-----------------------------------------------------------------------------------------
 # AUTHOR:      Sandro Dias (gitdias)
 # REPOSITORY:  https://github.com/gitdias/SMARTI
-# VERSION:     v01.00.03_u2025-12-26
+# VERSION:     v01.00.04_u2025-12-26
 # LICENSE:     MIT License
 # SCRIPT:      log.lib.sh
 # PATH:        /opt/smarti/libs/
